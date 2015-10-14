@@ -1,0 +1,486 @@
+.imagem-logo{
+  width: 6%;
+  height: 6%;
+  }
+  
+ .letra-logo{
+ 	width: 35%;
+  	height: 5%;
+ } 
+.servicos-destaque{
+  border-bottom: 1px solid rgb(182, 182, 182);
+  border-right: 1px solid rgba(135, 135, 135, 0.57);
+  border-left: 1px solid rgb(185, 185, 185);
+  background: #EEEEEE;
+  border-top: 1px solid rgb(182, 182, 182);
+}
+
+.servico-texto{
+  margin: 1% 1%;	
+}
+.bloco{
+  padding: 2% 2%;
+}
+
+.area-logo{
+  margin-top : 1%;
+  margin-bottom: 1%;
+}
+.orcamento{	
+  margin-top: 10px; 
+  padding-bottom: 36px;
+}
+
+.resumo{
+    color: rgb(0, 68, 102);
+	
+}
+.resumo-empresa .empresa{
+	padding: 5%;
+	 border-right: 1px solid rgb(93, 182, 211);
+  border-bottom: 1px solid rgb(93, 182, 211);
+  border-left: 1px solid #5DB6D3;
+	font-size: 20px;
+	background: rgb(96, 182, 207);
+}
+.noticias{
+  border-right: 1px solid #E7E7E7;
+  border-left: 1px solid #E7E7E7;
+  background: white;
+}
+
+.noticias .titulo {
+    background: yellowgreen;
+    margin-left: 1.8px;
+    margin-top: 1px;
+    margin-right: 1px;
+    border-top: 1px solid white;
+    /* border-right: 1px solid white; */
+}
+.noticias ul li{
+	border: none; 
+}
+.titulo h4{
+  color: rgb(0, 75, 113);
+  font-size: 20px;
+}
+.outros-conteudo{
+  border-right: 1px solid rgb(185, 185, 185);
+  border-bottom: 1px solid rgb(185, 185, 185);
+  border-left: 1px solid #B9B9B9;
+  border-top: 1px solid rgb(185, 185, 185);
+  background: #EEEEEE;
+}
+
+#myCarousel{
+    margin-left: 28px;
+    margin-right: 28px;
+    padding: 2% 0%;
+}
+
+.carousel p{
+    font-size: 25px;
+}
+.carousel .item{
+	border-radius:12px;
+	padding: 2px 1px;
+}
+.cabecalho-contato{
+	border:1px solid #E7E7E7;
+}
+
+.cabecalho-contato img {
+    width: 25%;
+}
+.conteudo-contato{
+	border:1px solid #E7E7E7;
+	background: #E7E7E7;
+}
+.form-horizontal{
+	padding: 4% 4% 0% 4%;
+	background: #A9A9A9;
+	border-left: 1px solid white;
+	border-right: 1px solid white;	
+}
+.rodape-map.row{
+    margin: initial;
+    background: rgb(0, 72, 108);
+}
+
+footer.rodape .copyright a {
+    color: gold;
+}
+
+footer.rodape .copyright {
+    margin-left: 21px;
+    color: cornflowerblue;
+    font-size: 12px;
+}
+
+footer.rodape.row h5 {
+    margin-left: 20px;
+    margin-top: 20px;
+    color: aqua;
+}
+
+footer li {
+}
+ul.links-rodape.list-group {
+	padding: 2%;
+}
+ul.links-rodape.list-group li {
+	border:none;
+	color:white;
+	background: transparent;
+}
+ul.links-rodape.list-group a{
+	color: white;
+	background: none;
+}
+.imagen-seguranca{
+}
+
+.descricao-seguranca {
+    margin-top: 1px;
+    margin-left: 30px;
+}
+
+.texto-seguranca {
+    border-radius: 5px; 
+    background: rgba(0, 0, 0, 0.1);
+    padding: 29px;
+    font-size: 17px;
+    margin-bottom: 18px;
+    border: 1px solid rgb(182, 175, 175);
+}
+
+.descricao-seguranca h4 {
+    margin-top: 28px;
+    margin-bottom: 20px;
+}
+
+.descricao-seguranca h3 {
+    background: black;
+    width: 410px;
+    color: white;
+    padding: 2px;
+    text-align: center;
+}
+.servico-seguranca{
+	border: 1px solid #B6AFAF;
+	background: rgba(231, 231, 231, 0.28);
+}
+
+.sobre-nos p{
+	font-size : 17px;
+	text-align: justify;
+	font-family: arial;
+	padding-top: 21px;
+}
+.sobre-nos ul{
+	font-size : 17px;
+	text-align: justify;
+	font-family: arial;
+}
+.sobre-nos h3{
+	text-align: justify;
+	border-bottom: 1px solid rgb(148, 149, 168);
+	padding-bottom: 3px;
+	color: rgb(0, 81, 118);
+	font-family: arial;
+}
+.sobre-nos-texto{
+	border-left: 1px solid #D7D3D3;
+  	
+	border-right: 1px solid #D7D3D3;	
+  	
+	border-bottom: 1px solid rgb(119, 189, 214);
+	background: rgba(231, 231, 231, 0.69);
+  	
+	padding: 2% 6%;
+ 
+} 
+ #imagem-sobre-nos{
+ 	width: 100%;
+ 
+}
+
+.imagem-sobre-nos {
+    border-left: 1px solid rgb(231, 231, 231);
+    border-right: 1px solid rgb(130, 130, 130);
+}
+ .imagem-servicos{
+ 	  border-bottom: 1px solid rgb(93, 182, 211);
+ 	  width: 100%;
+ }
+ .servico{
+    max-height:400px;
+     position:relative;
+ }
+ .item{
+  margin: 0%;
+ }
+ .item .texto{
+ 	height:80%;
+ 	border: 1px solid grey;
+ 	backgroung:white;
+ }
+ .item img{
+	  margin-top: 2%;
+	  display: block;
+	  margin-left: auto;
+	  margin-right: auto;
+	  width: 40%;
+	  height: 40%;
+ }
+
+.destaque {
+    width: 25%;
+}
+ .item h3{
+ 	margin-top: auto;
+ 	color:white;	
+ 	border-radius: 0.2em;
+  	
+ 	margin-left: 50px;
+  	
+ 	margin-right: 50px;
+  	
+ 	padding-bottom:3px;
+ }
+ 
+ .jardinagem{
+ 	/* border:1px solid  rgb(76, 175, 80); */ 
+ }
+ .jardinagem h3{	
+  	background:rgb(76, 175, 80); 
+  	font-size: 21px;   margin-top: inherit;
+}
+ .seguranca h3{	
+  	background: rgb(23, 0, 0);
+ 
+  	font-size: 21px;
+  	margin-top: inherit;
+}
+ .portaria h3{
+  	background: rgb(121, 85, 72);
+ 
+  	font-size: 21px;   margin-top: inherit;
+}
+ .zeladoria h3{
+  	background: #135986;
+ 
+  	font-size: 21px;   margin-top: inherit;
+}
+ 
+ .row .testemunho{
+ 	  background: #EEEEEE;
+ }
+ .testemunho .titulo{
+  
+ 	  background: rgb(177, 217, 229);
+  margin-top: 2px;
+  
+  
+ }
+ 
+ .img-seguranca-1{
+    width: 100%;
+    border-bottom: 1px solid rgb(182, 175, 175);
+    border-right: 1px solid rgb(182, 175, 175);
+    border-top: 1px solid rgb(182,175,175);
+    margin-top: 15px;
+}
+ .img-recepcao-1{
+    width: 100%;
+    border-bottom: 1px solid rgb(182, 175, 175);
+    border-right: 1px solid rgb(182, 175, 175);
+}
+
+.descricao-recepcao h4 {
+    margin-top: 28px;
+    margin-bottom: 20px;
+}
+
+.descricao-recepcao h3 {
+    background: rgb(229, 169, 62);
+    width: 410px;
+    color: white;
+    padding: 2px;
+    text-align: center;
+}
+
+.descricao-recepcao h4 {
+    color: rgb(86, 42, 8);
+}
+.servico-recepcao{
+	border: 1px solid #B6AFAF;
+	background: rgba(231, 231, 231, 0.21);
+}
+
+
+.texto-recepcao {
+    border-radius: 5px; 
+    background: rgba(229, 169, 62, 0.47);
+    padding: 29px;
+    font-size: 17px;
+    margin-bottom: 18px;
+    border: 1px solid rgb(194, 183, 166);
+    color: rgb(0, 0, 0);
+    letter-spacing: 0.2px;
+}
+
+ .img-jardinagem-1{
+    width: 100%;
+    margin-top: 83px;
+}
+
+.descricao-jardinagem h4 {
+    margin-top: 28px;
+    margin-bottom: 20px;
+}
+
+.descricao-jardinagem h3 {
+    background: rgb(59, 213, 96);
+    width: 410px;
+    color: white;
+    padding: 2px;
+    text-align: center;
+}
+
+.descricao-jardinagem h4 {
+    color: rgb(48, 184, 81);
+}
+.servico-jardinagem{
+	border-right: 1px solid #B6AFAF;
+	border-left: 1px solid #B6AFAF;
+}
+
+
+.texto-jardinagem { 
+    padding: 0px;
+    font-size: 17px;
+    margin-bottom: 18px;
+    color: rgb(86, 42, 8);
+}
+
+ .img-limpeza-1{
+    width: 100%;
+    border-bottom: 1px solid rgb(182, 175, 175);
+    border-right: 1px solid rgb(182, 175, 175);
+}
+
+.descricao-limpeza h4 {
+    margin-top: 28px;
+    margin-bottom: 20px;
+}
+
+.descricao-limpeza h3 {
+    background: rgb(19, 89, 134);
+    width: 410px;
+    color: white;
+    padding: 2px;
+    text-align: center;
+    margin-left: 13px;
+}
+
+.descricao-limpeza h4 {
+    color: rgb(19, 89, 134);
+    margin-left: 13px;
+}
+.servico-limpeza{
+	border-right: 1px solid #B6AFAF;
+	border-top: 1px solid rgba(128, 128, 128, 0.49);
+	border-left: 1px solid rgba(128, 128, 128, 0.63);
+	background: #FFFFFF;
+}
+
+.texto-limpeza { 
+    padding: 3px;
+    font-size: 17px;
+    margin-bottom: 18px;
+    color: rgb(30, 34, 37);
+    letter-spacing: 0.2px;
+    margin-left: 13px;
+}
+
+//daqui
+.img-piscinas-1{
+    width: 100%;
+    border-bottom: 1px solid rgb(182, 175, 175);
+    border-right: 1px solid rgb(182, 175, 175);
+}
+
+.descricao-piscinas h4 {
+    margin-top: 28px;
+    margin-bottom: 20px;
+     color: rgb(86, 42, 8);
+}
+
+.descricao-piscinas h3 {
+    background: rgb(94, 85, 60);
+    width: 54%;
+    color: white;
+    padding: 2px;
+    text-align: center;
+    margin-left: 45px;
+    margin-right: 45px;
+}
+.servico-piscinas{
+	border-right: 1px solid #B6AFAF;
+	border-left: 1px solid #b6afaf;
+}
+
+.img-piscinas-1 {
+    border-right: 1px solid rgb(176, 169, 168);
+    border-bottom: 1px solid #b6afaf;
+    border-top: 1px solid #b6afaf;
+    margin-top: 34px;
+    width: 100%;
+}
+.texto-piscinas { 
+    font-size: 20px;
+    color: rgb(86, 42, 8);
+    margin-left: 30px;
+    margin-bottom: 9px;
+}
+
+.rodape-map{
+	
+}
+.rodape-direitos{
+    margin: initial;
+	
+    background: black;
+}
+
+.form-trabalhe-conosco form {
+    margin-left: 26px;
+    margin-bottom: 40px;
+    margin-top: 65px;
+}
+
+.texto-trabalho-conosco{
+    
+}
+
+.texto-trabalho-conosco .texto p {
+    margin-top: 4%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: -2%;
+}
+
+.texto-trabalho-conosco .titulo {
+    background: #2F2928;
+    color: azure;
+    padding-left: 4%;
+    margin-top: -1%;
+    width: 106%;   margin-left: -3%;
+}
+
+.texto-trabalho-conosco .titulo {
+}
+.cabecalho-trabalhe-conosco img{
+	width:50%;
+}
