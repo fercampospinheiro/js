@@ -9,6 +9,6 @@ public class IndexController {
 
     @RequestMapping("/")
     public String carregaTemplateIndex() {
-        return "home/index";
+        return "/home/index";
     }
 }

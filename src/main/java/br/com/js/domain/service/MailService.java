@@ -18,7 +18,9 @@ import org.springframework.stereotype.Service;
  @Service 
 public class MailService {  
       
-    @Autowired private JavaMailSender mailSender; 
+    
+    @Autowired 
+    private JavaMailSender mailSender; 
      
     public MailService() {
     }
@@ -36,9 +38,7 @@ public class MailService {
             message.setSubject(email.getSubject());
             message.addAttachment(email.getAttachmentName(), new ByteArrayResource(email.getAttachment().getBytes()));
             mime = message.getMimeMessage();
-        } catch (MessagingException ex) {
-            Logger.getLogger(MailService.class.getName()).log(Level.SEVERE, null, ex);
-        } catch (IOException ex) {
+        } catch (MessagingException | IOException ex) {
             Logger.getLogger(MailService.class.getName()).log(Level.SEVERE, null, ex);
         }
         this.mailSender.send(mime);
